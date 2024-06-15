@@ -34,12 +34,12 @@ const hasEven = numbers.some((num) => num % 2 === 0);
 console.log(hasEven); // Output: true
 // Method some akan memeriksa apakah ada elemen dalam array yang genap.
 
-// 6. every
-// Mengembalikan nilai true jika semua elemen dalam array memenuhi fungsi uji yang diberikan.
-const allEven = numbers.every((num) => num % 2 === 0);
-console.log(allEven); // Output: false
-// Method every akan memeriksa apakah semua elemen dalam array adalah genap.
-
+// 6. toLowerCase
+// Mengubah string menjadi huruf kecil.
+const text = "HELLO WORLD";
+const lowerText = text.toLowerCase();
+console.log(lowerText); // Output: "hello world"
+// Method toLowerCase akan mengubah semua huruf dalam string menjadi huruf kecil.
 // 7. sort
 // Mengurutkan elemen array di tempat dan mengembalikan array yang diurutkan.
 const sortedFruits = fruits.sort();
@@ -65,10 +65,3 @@ const lastFruit = fruits.pop();
 console.log(lastFruit); // Output: "Pineapple"
 console.log(fruits); // Output: ["Apple", "Banana", "Lemon", "Mango", "Orange"]
 // Method pop akan menghapus elemen terakhir dari array fruits dan mengembalikan elemen tersebut.
-
-// toLowerCase
-// Mengubah string menjadi huruf kecil.
-const text = "HELLO WORLD";
-const lowerText = text.toLowerCase();
-console.log(lowerText); // Output: "hello world"
-// Method toLowerCase akan mengubah semua huruf dalam string menjadi huruf kecil.
